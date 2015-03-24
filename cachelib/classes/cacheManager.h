@@ -26,7 +26,8 @@
 
 /** Store object in cache without expiry
  *
- *  Sets the property of the receiver specified by a given key to a given object.
+ *  Sets the property of the receiver specified by a given key to a given
+ *object.
  *
  *  @param anObject The value for the object identified by key.
  *  @param aKey     The value of the key for the object identified.
@@ -34,7 +35,8 @@
 - (void)setData:(id)object forKey:(NSString *)key;
 
 /**
- *  Sets the property of the receiver specified by a given key to a given object.
+ *  Sets the property of the receiver specified by a given key to a given
+ *object.
  *
  *  @param anObject The value for the object identified by key.
  *  @param aKey     The value of the key for the object identified.
@@ -46,7 +48,6 @@
  * @name Retrive object from cache
  * -----------------------------------------------------------------------------
  */
-
 
 /** Retrive object from cache
  *  Retrive object from cache based on the key
@@ -62,9 +63,9 @@
 - (BOOL)checkIfObjectExistforKey:(NSString *)aKey;
 - (FileTypeEnum)extractFileType:(NSString *)url;
 
-# pragma mark - Properties
+#pragma mark - Properties
 
-@property (nonatomic,retain) NSNumber *timeToLive;
-@property (nonatomic,retain) NSNumber *expiryTimeforPurging;
+@property(nonatomic, retain) NSNumber *timeToLive;
+@property(nonatomic, retain) NSNumber *expiryTimeforPurging;
 
 @end

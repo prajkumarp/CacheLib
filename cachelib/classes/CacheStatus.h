@@ -19,7 +19,7 @@ typedef NS_ENUM(NSInteger, FileTypeEnum) {
     /** Indicates the file types as PNG image, used for converting
      * from and to NSData.
      */
-    PNGType ,
+    PNGType,
     /** Indicates the file types as String, used for converting
      * from and to NSData.
      */
@@ -40,9 +40,9 @@ typedef NS_ENUM(NSInteger, FileTypeEnum) {
 
 @interface CacheStatus : NSManagedObject
 
-@property (nonatomic, retain) NSString * key;
-@property (nonatomic) FileTypeEnum fileType;
-@property (nonatomic, retain) NSDate * expiryDate;
-@property (nonatomic, retain) NSDate * lastAccessed;
+@property (nonatomic, retain) NSString        * key;
+@property (nonatomic        ) FileTypeEnum    fileType;
+@property (nonatomic, retain) NSDate          * expiryDate;
+@property (nonatomic, retain) NSDate          * lastAccessed;
 
 @end
