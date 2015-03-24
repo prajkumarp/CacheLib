@@ -17,7 +17,7 @@
 @synthesize value5;
 
 
-- (id)initWithCoder:(NSCoder *)decoder {
+- (instancetype)initWithCoder:(NSCoder *)decoder {
     if (self = [super init]) {
         [self setValue1:[decoder decodeObjectForKey:@"value1"]];
         [self setValue2:[decoder decodeObjectForKey:@"value2"]];

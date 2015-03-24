@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString(MD5)
-- (NSString *)MD5String;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *MD5String;
 @end

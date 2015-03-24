@@ -29,7 +29,7 @@ static NSString *const kEncryptPassword = @"goodPassword";
 
 
 - (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSURL *applicationDocumentsDirectory;
 
 @end
 
@@ -55,8 +55,8 @@ static NSString *const kEncryptPassword = @"goodPassword";
 {
     self = [super init];
     if (self) {
-        [self setTimeToLive:[NSNumber numberWithInteger:60 * 60 * 24 * 365 * 5 ]];// 60 (Seconds) * 60 (Minutes) * 24 (Hours) * 365 (Days) * 5 (Years)
-        [self setExpiryTimeforPurging:[NSNumber numberWithInteger:60 * 60 * 24 * 365 * 5 ]];// 60 (Seconds) * 60 (Minutes) * 24 (Hours) * 30 (Days)
+        [self setTimeToLive:@(60 * 60 * 24 * 365 * 5)];// 60 (Seconds) * 60 (Minutes) * 24 (Hours) * 365 (Days) * 5 (Years)
+        [self setExpiryTimeforPurging:@(60 * 60 * 24 * 365 * 5)];// 60 (Seconds) * 60 (Minutes) * 24 (Hours) * 30 (Days)
     }
     return self;
 }
@@ -312,7 +312,7 @@ static NSString *const kEncryptPassword = @"goodPassword";
     CacheStatus *returnData;
     
     if ([fetchedObjects count]>0) {
-        returnData = [fetchedObjects objectAtIndex:0];
+        returnData = fetchedObjects[0];
     }
     
     return returnData;
