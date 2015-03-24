@@ -37,6 +37,8 @@
  */
 - (void)createConstraints {
     
+    FileTypeEnum fileTypeEnum;
+    
     /**
      * Call -reset the frames created in the xib.
      */

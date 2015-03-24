@@ -71,6 +71,8 @@ static NSString *const kEncryptPassword = @"goodPassword";
 
 - (id)getDataForKey:(NSString *)aKey{
     
+    
+    
     //    Get the hash ecryption for the key
     NSString *hashKey = [self hashString:aKey];
     
@@ -153,7 +155,7 @@ static NSString *const kEncryptPassword = @"goodPassword";
 
 - (void)setData:(id)anObject forKey:(NSString *)aKey withExpiryDate:(NSDate *)date{
     
-    fileTypeEnum dataTypeValue = CustomObject;
+    FileTypeEnum dataTypeValue = CustomObject;
     if ([anObject isKindOfClass:[UIImage class]]) {
         //    Get the file type from key
         dataTypeValue = [self extractFileType:aKey];
@@ -204,11 +206,11 @@ static NSString *const kEncryptPassword = @"goodPassword";
 
 # pragma mark - Private methods
 
--(fileTypeEnum)extractFileType:(NSString *)url{
+-(FileTypeEnum)extractFileType:(NSString *)url{
     
     NSString *extension = [url pathExtension];
     
-    fileTypeEnum dataTypeValue = StringType;
+    FileTypeEnum dataTypeValue = StringType;
     
     if (([[extension uppercaseString] isEqualToString:@"JPEG"])||([[extension uppercaseString] isEqualToString:@"JPG"])) {
         dataTypeValue = JPEGType;
@@ -239,7 +241,7 @@ static NSString *const kEncryptPassword = @"goodPassword";
     return (__bridge_transfer NSString *)escapedString;
 }
 
-- (NSData *)encryptintoData:(NSObject *)anObject dataType:(fileTypeEnum)dataTypeValue{
+- (NSData *)encryptintoData:(NSObject *)anObject dataType:(FileTypeEnum)dataTypeValue{
     NSData *data;
     
     switch (dataTypeValue) {
@@ -276,7 +278,7 @@ static NSString *const kEncryptPassword = @"goodPassword";
 
 # pragma mark - Core Data methods
 
-- (void)addToCacheLookup:(NSString *)key fileType:(fileTypeEnum)fileType expiryDate:(NSDate *)date{
+- (void)addToCacheLookup:(NSString *)key fileType:(FileTypeEnum)fileType expiryDate:(NSDate *)date{
     
     NSManagedObjectContext *context = [self managedObjectContext];
     CacheStatus *cacheInformation = [NSEntityDescription

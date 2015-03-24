@@ -21,7 +21,7 @@
 
 - (void)removeAllDataOlderThan:(NSDate *)date;
 - (BOOL)checkIfObjectExistforKey:(NSString *)aKey;
-- (fileTypeEnum)extractFileType:(NSString *)url;
+- (FileTypeEnum)extractFileType:(NSString *)url;
 
 @property (nonatomic,retain) NSNumber *timeToLive;
 @property (nonatomic,retain) NSNumber *expiryTimeforPurging;

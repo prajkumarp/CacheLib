@@ -9,19 +9,19 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-typedef enum dataTypesEnum : int16_t {
-    JPEGType = 0,
-    PNGType = 1,
-    StringType = 2,
-    DictionaryType = 3,
-    ArrayType = 4,
-    CustomObject = 5
-} fileTypeEnum;
+typedef NS_ENUM(NSInteger, FileTypeEnum) {
+    JPEGType,
+    PNGType ,
+    StringType,
+    DictionaryType,
+    ArrayType,
+    CustomObject
+};
 
 @interface CacheStatus : NSManagedObject
 
 @property (nonatomic, retain) NSString * key;
-@property (nonatomic) fileTypeEnum fileType;
+@property (nonatomic) FileTypeEnum fileType;
 @property (nonatomic, retain) NSDate * expiryDate;
 @property (nonatomic, retain) NSDate * lastAccessed;
 
