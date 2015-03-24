@@ -41,6 +41,12 @@ static NSString *const kEncryptPassword = @"goodPassword";
 @synthesize expiryTimeforPurging;
 @synthesize  timeToLive;
 
+
+/**
+ *  Returns shared singleton instance of the cache manager.
+ *
+ *  @return Returns cache manager
+ */
 + (cacheManager *)sharedInstance{
     static cacheManager *sharedInstance = nil;
     static dispatch_once_t onceToken;
@@ -51,6 +57,11 @@ static NSString *const kEncryptPassword = @"goodPassword";
     return sharedInstance;
 }
 
+/**
+ *  Initializes a newly allocated CacheManager
+ *
+ *  @return Returns CacheManager instance
+ */
 - (instancetype)init
 {
     self = [super init];
@@ -65,10 +76,23 @@ static NSString *const kEncryptPassword = @"goodPassword";
     [self saveContext];
 }
 
+/**
+ *  Sets the property of the receiver specified by a given key to a given object.
+ *
+ *  @param anObject The value for the object identified by key.
+ *  @param aKey     The value of the key for the object identified.
+ */
 - (void)setData:(id)anObject forKey:(NSString *)aKey{
     [self setData:anObject forKey:aKey withExpiryDate:nil];
 }
 
+/**
+ *  Retrieves the object for the specified key
+ *
+ *  @param aKey The key associated with the object.
+ *
+ *  @return The object for the specified key.
+ */
 - (id)getDataForKey:(NSString *)aKey{
     
     
@@ -153,6 +177,13 @@ static NSString *const kEncryptPassword = @"goodPassword";
     return nil;
 }
 
+/**
+ *  Sets the property of the receiver specified by a given key to a given object.
+ *
+ *  @param anObject The value for the object identified by key.
+ *  @param aKey     The value of the key for the object identified.
+ *  @param date     The expiry time for the object associated with the key
+ */
 - (void)setData:(id)anObject forKey:(NSString *)aKey withExpiryDate:(NSDate *)date{
     
     FileTypeEnum dataTypeValue = CustomObject;
@@ -200,6 +231,7 @@ static NSString *const kEncryptPassword = @"goodPassword";
     
 }
 
+//TODO:
 - (BOOL)checkIfObjectExistforKey:(NSString *)aKey{
     return NO;
 }
