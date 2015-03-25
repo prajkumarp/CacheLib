@@ -11,7 +11,6 @@
 #import "RNEncryptor.h"
 #import "RNDecryptor.h"
 #import "NSString+MD5.h"
-#import "CocoaLumberjack.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <UIKit/UIImage.h>
 
@@ -22,7 +21,7 @@ static NSString *const kEncryptPassword      = @"goodPassword";
 }
 
 @property (readonly, strong, nonatomic         ) NSManagedObjectContext       *managedObjectContext;
-@property (strong, nonatomic                   ) NSManagedObjectModel         *managedObjectModel;
+
 @property (readonly, strong, nonatomic         ) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, NS_NONATOMIC_IOSONLY, copy) NSURL                        *applicationDocumentsDirectory;
 

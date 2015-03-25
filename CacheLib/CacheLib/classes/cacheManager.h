@@ -65,7 +65,7 @@
 
 #pragma mark - Properties
 
-@property(nonatomic, retain) NSNumber *timeToLive;
-@property(nonatomic, retain) NSNumber *expiryTimeforPurging;
-
+@property (nonatomic, retain ) NSNumber             *timeToLive;
+@property (nonatomic, retain ) NSNumber             *expiryTimeforPurging;
+@property (strong, nonatomic ) NSManagedObjectModel *managedObjectModel;
 @end

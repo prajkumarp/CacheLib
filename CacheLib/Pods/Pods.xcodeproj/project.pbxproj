@@ -7,471 +7,296 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03CF56054EB301E74D264EEE /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC484B9943B3CE9B20839A /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0716DB15C9259C15A75EED91 /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 038E867F7E176A462E8BD429 /* TMCache.h */; };
-		077A80D45C17319DB0A8A7FC /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EDD3DFE2CB2AC1E1FA7C9E /* RNCryptorEngine.h */; };
-		099C09BA7FEA8B6668138598 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76728E66614DD20164FBCAB9 /* Security.framework */; };
-		0C102E0E1C5576A10BAA0F4C /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC8C9CBEEF14D305492B13 /* RNOpenSSLDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		19683535016F5BC6FC91D501 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 79721E1EBDE67B4C087B9B8D /* DDTTYLogger.h */; };
-		217DC3EAB915AE834CC27B11 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A9EDAF7BCC43F01DC0A3E7 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		22E3E0834C692194EB7C4E82 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A54C2288CC74DB5864AFF1 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2631D7AF6EE9AB10BAEFD8DE /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDC8D7D138F3EAA792CC602 /* TMDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		26DBF5AA9B7CBEE66DB18998 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC202AC02F682B8FF462060 /* DDFileLogger.h */; };
-		2709431C217B0E0CFAD19EEF /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 13775683111BD62B7D3C47B5 /* RNEncryptor.h */; };
-		27A288FEBAD713EA3E48D6DF /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BC421EDE7B5345DE456F4 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2BEC1F262F8FD973CA322699 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9250B110F7C550CFDF9B2 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2D0CD2F2CBA28620FD1F1DE6 /* TMDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E226D6DBAE0A37AA000A3943 /* TMDiskCache.h */; };
-		2E6309D7194504653BA3EF95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703662878D6F06292A03BE7 /* Foundation.framework */; };
-		320AB3359A4223A6AEE9EB5E /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C9F58CC11C6D5EEDA7FD61 /* DDContextFilterLogFormatter.h */; };
-		3BA24BB895290C373D12AE50 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3BF87D780498871B066B0 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		49605F58C15CEE4D64FE960C /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7990EB14B28C45DB0E73A0 /* DDMultiFormatter.h */; };
-		4AEC739C4C831ECD1DCC7185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703662878D6F06292A03BE7 /* Foundation.framework */; };
-		4B513F0F8D8A4001321812B1 /* TMMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 20407942771690529FAF659F /* TMMemoryCache.h */; };
-		52BAD879EDC18651C4CE4BFC /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A750B9AF5146A89E80B87 /* TMMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		569929C5FFBCFE1B59F64CBE /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1A08B9D9F8363C9395DE4B /* RNCryptor+Private.h */; };
-		56D3DB836BE9B6A241117B23 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C697601FF3719B915194BB57 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		577B9C0936D9855E383F4677 /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D700FAB06080714DE1F861 /* RNOpenSSLDecryptor.h */; };
-		5C3ADDF0DB4D7846235B8913 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B80CB2F07F66B3EF9811721E /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		60460C779DD3A452A36B2977 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFDDA7C5DBCE6610A47E708 /* TMCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		62204916E71539F691884590 /* Pods-RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB34F02CBA66C3646714A5 /* Pods-RNCryptor-dummy.m */; };
-		6CE6F2AA38A9BDEBA2B77E47 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADF89A6499BF422A2453621 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		779FC398A63AD158885708AE /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C66B8FFB1F9C9E12547EEB01 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		838B3F9C4D7A17BA26623FAC /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBE51AFE6DAADE5FFF1A791 /* CocoaLumberjack.h */; };
-		83DE7991D2B8D5267CB115DE /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C3C8C0895CE5D6BA661A01 /* RNOpenSSLCryptor.h */; };
-		840F5E60E94DDBB66A5AA5C3 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7EE344436A802C0DFB7A30 /* RNCryptor.h */; };
-		898EBC832FBE9395DDD096D3 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE68CCED4120DEC85902E12B /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		93161BE724B28C4003B34FB8 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC780EE9E8EC372D9B898F4 /* DDDispatchQueueLogFormatter.h */; };
-		98A9BDD5F6D4E0C97D9A03AB /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BFF2B6C536E6E1B28E3948 /* DDLog.h */; };
-		98DC0C4FA668943C8CD427C6 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6D7A89BF409FDEC08D63AF /* RNDecryptor.h */; };
-		993BE2399F7BA57D0FCBBA9A /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 052496C370A950FF015A524E /* DDLogMacros.h */; };
-		A26AEB78D2E4C6506D833208 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502356F058DDA9B89650FEF /* Pods-dummy.m */; };
-		A32915220280F6E71EE8C1BF /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0753CC8DA02DCF25BB219A7E /* DDLegacyMacros.h */; };
-		A53DC1C0A2AB2AAB0C95E03D /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 308C12B0F0DB02C824CE3C8E /* DDASLLogger.h */; };
-		A78E2A39CE7BD27474E991AD /* Pods-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D3BCB50963C50DF2CC8C /* Pods-CocoaLumberjack-dummy.m */; };
-		B87BB7A9F84A201540AAE3D1 /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 098C2B452AC4DD80D0CC1174 /* RNOpenSSLCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C3A1A4CB3D02B8A346718019 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DB1CC2903739AF4A595F43 /* DDAbstractDatabaseLogger.h */; };
-		C6AA23D07393E24C750D70DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703662878D6F06292A03BE7 /* Foundation.framework */; };
-		C930258CBD43E5357A6D4E5D /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC451EA09651DDF66CA8148 /* DDASLLogCapture.h */; };
-		C940685A212D3CF87F6BE7FB /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 264E8BDC87322C8A3C125EEC /* RNOpenSSLEncryptor.h */; };
-		CEEB739497BCAA0314BE9ABC /* Pods-TMCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3289773A4E730040C37BD5 /* Pods-TMCache-dummy.m */; };
-		D0784C6E38B988D6A01CAE8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703662878D6F06292A03BE7 /* Foundation.framework */; };
-		DFD3A2C17EAB4148C9D8E48F /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 013F4695DD1CD9E873A88381 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ED94AE99B303909381C385DC /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7FBD423733CE6D01EBA0A9 /* RNOpenSSLEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EFF8383657F542A2E6B44EDE /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B12F3D7F2B9B039DA7A683 /* DDLog+LOGV.h */; };
-		F728C5C0522E8513584654B3 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1246C4C073C21A96A5ECFB20 /* DDAssertMacros.h */; };
-		FE5D7B33B7987BD27BE9C714 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C83C772F0C265C278094FA63 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21A2D01E9EA0EC38F47AE94E /* TMMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6328652EAA30427601FF8AC1 /* TMMemoryCache.h */; };
+		22E5ACD0FD21E52735321B26 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA3C43F001A51EE06461D4 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		233465F3A9E3B9B9A811FF4C /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A47A312CED92E3F9CA7DB9B9 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		412CA4367303327734C8F777 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CE975A9987E86E3EA10824EF /* TMCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4443B8F493F1DB546C9496B0 /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DD038F159EE7983D7092AF /* RNOpenSSLCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4782729304E228A5BE45F8B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E7DDB3C5E6AA79F0FD3AC3 /* Security.framework */; };
+		4EDF9BBA9637DE12EDA8229A /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4938B4703BDE5BA277AA9D76 /* TMMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5097A34F0E88527A3AA145BC /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2F664B686E56E8B2FB28CD /* RNOpenSSLEncryptor.h */; };
+		532852A8A535EB0A57F93BC7 /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 112D78DCCBE7AF2AD3DE5043 /* RNOpenSSLEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		542EDE3D161330D56FCA1A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F44F53CB190927ECD4AA82 /* Foundation.framework */; };
+		75C7FE5F43D7B7406A92393D /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CC2226B5162905C0029B91 /* RNOpenSSLDecryptor.h */; };
+		7DE37BB69441B1A4BAF46F51 /* TMDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9101527E179A6C0AEF9AABA4 /* TMDiskCache.h */; };
+		8005CEA8D32B557B7FB39A77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F44F53CB190927ECD4AA82 /* Foundation.framework */; };
+		82AE02F196C05A10DC252CB5 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 07322A89A333C725B5B9A4F0 /* RNEncryptor.h */; };
+		8475AAE9BB71E1DE0633B596 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DD52516243B3569D899C0 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E93DBB4446A51F59FDD89FE /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AADC0D3FD89F63AB903CDD /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		90C132686BE5895D0E30C7CC /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 468E9DA9C93A065DBDD43E8F /* RNCryptor+Private.h */; };
+		984F037EFA9F0297F3DC37AA /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34EE42E5C5FDCF6EB501CD /* RNOpenSSLDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A786DA02037DDF7818EBB389 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5F1D829387B46122343F3 /* RNDecryptor.h */; };
+		BFB238518841077A6D7AED92 /* Pods-RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D18424E0DA1C87092AE67BEA /* Pods-RNCryptor-dummy.m */; };
+		C1D0D73E57173174C3FEE295 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 554B590E6EE2381A7BD323B4 /* RNCryptorEngine.h */; };
+		C2F86FEB6E4958C964AD290B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F44F53CB190927ECD4AA82 /* Foundation.framework */; };
+		C62D69454FE6328697A67FC1 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0067CF07BACAFEDACE140391 /* RNCryptor.h */; };
+		C928BA7F803DDBF49DA74F14 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9AF22F03EF05AE2A235180 /* Pods-dummy.m */; };
+		E42ADA2A93069B94B7DF97B1 /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 850D6BEC6D43D24AE4D991A2 /* TMCache.h */; };
+		F27CD6DD7F15BA4B9335FA5D /* Pods-TMCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE3134E44101F29D92763B /* Pods-TMCache-dummy.m */; };
+		F57F5CDBA2EB77498FFE5E49 /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B0E7BB4AC9F9CE0F9561F0 /* RNOpenSSLCryptor.h */; };
+		FC27FA98B40856556F1FE1E5 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B09DF4DBE8BC72FDA7CF7E7 /* TMDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00D9CB9803A204105D4156EC /* PBXContainerItemProxy */ = {
+		5F26296CC6C70CA7F092C4E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6540DB85E6EC22D1C878E0AC /* Project object */;
+			containerPortal = 3D573AA7339DA6D5C196548E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADE7CEE567F2CDE3D6C2F154;
-			remoteInfo = "Pods-RNCryptor";
-		};
-		39959C7A0C3CA2D491791BE3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6540DB85E6EC22D1C878E0AC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C8D3F596EF7E5296F7642E7;
+			remoteGlobalIDString = 5E8FBA534C33161503D37D94;
 			remoteInfo = "Pods-TMCache";
 		};
-		DDB50FD011349AC51BA74D48 /* PBXContainerItemProxy */ = {
+		F727F4EE603D9B73A65CAA83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6540DB85E6EC22D1C878E0AC /* Project object */;
+			containerPortal = 3D573AA7339DA6D5C196548E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5A9B9BB760C8ECF3BC58831;
-			remoteInfo = "Pods-CocoaLumberjack";
+			remoteGlobalIDString = 087F9028A4436E3B61B5FC44;
+			remoteInfo = "Pods-RNCryptor";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013F4695DD1CD9E873A88381 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
-		038E867F7E176A462E8BD429 /* TMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMCache.h; path = TMCache/TMCache.h; sourceTree = "<group>"; };
-		052496C370A950FF015A524E /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
-		0753CC8DA02DCF25BB219A7E /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
-		098C2B452AC4DD80D0CC1174 /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLCryptor.m; path = RNCryptor/RNOpenSSLCryptor.m; sourceTree = "<group>"; };
-		11B12F3D7F2B9B039DA7A683 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
-		1246C4C073C21A96A5ECFB20 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
-		13775683111BD62B7D3C47B5 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
-		17C58745FF2C9042A6D428A7 /* Pods-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
-		1AC780EE9E8EC372D9B898F4 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		20407942771690529FAF659F /* TMMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
-		264E8BDC87322C8A3C125EEC /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLEncryptor.h; path = RNCryptor/RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
-		26B9250B110F7C550CFDF9B2 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
-		2703662878D6F06292A03BE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2DBE51AFE6DAADE5FFF1A791 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
-		308C12B0F0DB02C824CE3C8E /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
-		365464D716382EF874BA7388 /* Pods-RNCryptor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptor-Private.xcconfig"; sourceTree = "<group>"; };
-		386F5927E4C9FE449D0C5FD0 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		3AE3BF87D780498871B066B0 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
-		3CC202AC02F682B8FF462060 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
-		3F990A116761A5E98C075ED8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A7EE344436A802C0DFB7A30 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
-		4EAC8C9CBEEF14D305492B13 /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLDecryptor.m; path = RNCryptor/RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
-		520BC421EDE7B5345DE456F4 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
-		54C9F58CC11C6D5EEDA7FD61 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		5502356F058DDA9B89650FEF /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		58C3C8C0895CE5D6BA661A01 /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLCryptor.h; path = RNCryptor/RNOpenSSLCryptor.h; sourceTree = "<group>"; };
-		5B9371632A905CA968C8F585 /* Pods-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
-		6ADF89A6499BF422A2453621 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
-		71CD25301304E00E3D6700FB /* Pods-RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNCryptor-prefix.pch"; sourceTree = "<group>"; };
-		76728E66614DD20164FBCAB9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		79721E1EBDE67B4C087B9B8D /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
-		7A46D3BCB50963C50DF2CC8C /* Pods-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
-		7C8A750B9AF5146A89E80B87 /* TMMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
-		7F1A08B9D9F8363C9395DE4B /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
-		95EDD3DFE2CB2AC1E1FA7C9E /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
-		98CE03D9B47527519573C025 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		9FF042FB38C3877399C49426 /* libPods-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D700FAB06080714DE1F861 /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLDecryptor.h; path = RNCryptor/RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
-		ADFDDA7C5DBCE6610A47E708 /* TMCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMCache.m; path = TMCache/TMCache.m; sourceTree = "<group>"; };
-		B2E7798ADEF29E80AFEE2E32 /* Pods-TMCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMCache-prefix.pch"; sourceTree = "<group>"; };
-		B80CB2F07F66B3EF9811721E /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		B8E7726D0DF2B262CC2E8E65 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		BDC451EA09651DDF66CA8148 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
-		C1A54C2288CC74DB5864AFF1 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
-		C39FE7B437273782AAC33996 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		C5888DC735B647A3257A63AF /* Pods-TMCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMCache.xcconfig"; sourceTree = "<group>"; };
-		C66B8FFB1F9C9E12547EEB01 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
-		C697601FF3719B915194BB57 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
-		C83C772F0C265C278094FA63 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
-		CB66E7BB34B7AD21B2FF5D60 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBF44E783D28176DC2979E55 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD7FBD423733CE6D01EBA0A9 /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLEncryptor.m; path = RNCryptor/RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
-		D9C6D3CB465C5CCD9D7E3743 /* Pods-CocoaLumberjack-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaLumberjack-Private.xcconfig"; sourceTree = "<group>"; };
-		DB3913735FFE7572B4FD1462 /* Pods-TMCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMCache-Private.xcconfig"; sourceTree = "<group>"; };
-		DB7990EB14B28C45DB0E73A0 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
-		DFDB34F02CBA66C3646714A5 /* Pods-RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNCryptor-dummy.m"; sourceTree = "<group>"; };
-		E226D6DBAE0A37AA000A3943 /* TMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMDiskCache.h; path = TMCache/TMDiskCache.h; sourceTree = "<group>"; };
-		E2DB1CC2903739AF4A595F43 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		E45AB2C6C81988ED839AAB92 /* Pods-RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptor.xcconfig"; sourceTree = "<group>"; };
-		E8DC484B9943B3CE9B20839A /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
-		EA6D7A89BF409FDEC08D63AF /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
-		EE3289773A4E730040C37BD5 /* Pods-TMCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMCache-dummy.m"; sourceTree = "<group>"; };
-		EE68CCED4120DEC85902E12B /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		EFDC8D7D138F3EAA792CC602 /* TMDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMDiskCache.m; path = TMCache/TMDiskCache.m; sourceTree = "<group>"; };
-		F01F1FB5AC4F8438555A83D8 /* libPods-RNCryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNCryptor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0BFF2B6C536E6E1B28E3948 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
-		F0DF0F36DFCA905F676826C4 /* libPods-TMCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3A9EDAF7BCC43F01DC0A3E7 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		FBC71FE282261B29718245CA /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		0067CF07BACAFEDACE140391 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		07322A89A333C725B5B9A4F0 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		112D78DCCBE7AF2AD3DE5043 /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLEncryptor.m; path = RNCryptor/RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
+		13CC2226B5162905C0029B91 /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLDecryptor.h; path = RNCryptor/RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
+		1A8DD52516243B3569D899C0 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		223BFEF90D4CB7C7E59EA788 /* libPods-TMCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DD038F159EE7983D7092AF /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLCryptor.m; path = RNCryptor/RNOpenSSLCryptor.m; sourceTree = "<group>"; };
+		2E974C725152731655D80C14 /* Pods-TMCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMCache-Private.xcconfig"; sourceTree = "<group>"; };
+		3C9AF22F03EF05AE2A235180 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		468E9DA9C93A065DBDD43E8F /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		474B9708F84882008F1B9D66 /* Pods-TMCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMCache.xcconfig"; sourceTree = "<group>"; };
+		4860AAA58DF32B1ECF678587 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		4938B4703BDE5BA277AA9D76 /* TMMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
+		4B09DF4DBE8BC72FDA7CF7E7 /* TMDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMDiskCache.m; path = TMCache/TMDiskCache.m; sourceTree = "<group>"; };
+		4B34EE42E5C5FDCF6EB501CD /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLDecryptor.m; path = RNCryptor/RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
+		554B590E6EE2381A7BD323B4 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		57AADC0D3FD89F63AB903CDD /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		5BA5F1D829387B46122343F3 /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+		5CAE3134E44101F29D92763B /* Pods-TMCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMCache-dummy.m"; sourceTree = "<group>"; };
+		5D51F49A776C0EBDDE7FA115 /* Pods-RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		6328652EAA30427601FF8AC1 /* TMMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
+		6D3A9BF90483A91A4CACEA2C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		809C367339266D34201647BC /* Pods-RNCryptor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptor-Private.xcconfig"; sourceTree = "<group>"; };
+		850D6BEC6D43D24AE4D991A2 /* TMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMCache.h; path = TMCache/TMCache.h; sourceTree = "<group>"; };
+		88B0E7BB4AC9F9CE0F9561F0 /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLCryptor.h; path = RNCryptor/RNOpenSSLCryptor.h; sourceTree = "<group>"; };
+		8BE5AED5EADEA73C3B5DB335 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		8DF6C59BF19F45F3A0A10327 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E104296A22BC9CF747A78BC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9101527E179A6C0AEF9AABA4 /* TMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMDiskCache.h; path = TMCache/TMDiskCache.h; sourceTree = "<group>"; };
+		9E2F664B686E56E8B2FB28CD /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLEncryptor.h; path = RNCryptor/RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
+		A47A312CED92E3F9CA7DB9B9 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		A4F44F53CB190927ECD4AA82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B09F9284D7350791A6F7AEC9 /* Pods-RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNCryptor.xcconfig"; sourceTree = "<group>"; };
+		B6D2446ACA33AE670D99C78D /* libPods-RNCryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNCryptor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDAD5FF7A0FCA26686307E8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		C9A6401306D3186837D5D69A /* Pods-TMCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMCache-prefix.pch"; sourceTree = "<group>"; };
+		CE975A9987E86E3EA10824EF /* TMCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMCache.m; path = TMCache/TMCache.m; sourceTree = "<group>"; };
+		D18424E0DA1C87092AE67BEA /* Pods-RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		E38F8A1129913E65240CF234 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2E7DDB3C5E6AA79F0FD3AC3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FCB872C3CEDE129D10891A2A /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		FDAA3C43F001A51EE06461D4 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3389A7628AF0A1D0D77CDB36 /* Frameworks */ = {
+		1CA548C4D43469E8054B291B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AA23D07393E24C750D70DD /* Foundation.framework in Frameworks */,
+				C2F86FEB6E4958C964AD290B /* Foundation.framework in Frameworks */,
+				4782729304E228A5BE45F8B1 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68DBDE6C5AD3FF84B4FEC79C /* Frameworks */ = {
+		4CD15B930797D4736559EC78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AEC739C4C831ECD1DCC7185 /* Foundation.framework in Frameworks */,
-				099C09BA7FEA8B6668138598 /* Security.framework in Frameworks */,
+				542EDE3D161330D56FCA1A58 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B788BA513200AF8D627720C8 /* Frameworks */ = {
+		552F2C1EA64C17CFAD6D8406 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0784C6E38B988D6A01CAE8C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF10A9A930E855D8EFD648A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E6309D7194504653BA3EF95 /* Foundation.framework in Frameworks */,
+				8005CEA8D32B557B7FB39A77 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0953B8BABF42849A92CCBAE1 /* Support Files */ = {
+		08584298AA8F968086DAA1CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5888DC735B647A3257A63AF /* Pods-TMCache.xcconfig */,
-				DB3913735FFE7572B4FD1462 /* Pods-TMCache-Private.xcconfig */,
-				EE3289773A4E730040C37BD5 /* Pods-TMCache-dummy.m */,
-				B2E7798ADEF29E80AFEE2E32 /* Pods-TMCache-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-TMCache";
-			sourceTree = "<group>";
-		};
-		0BAD7E48457921B2EC26FC3C /* RNCryptor */ = {
-			isa = PBXGroup;
-			children = (
-				4A7EE344436A802C0DFB7A30 /* RNCryptor.h */,
-				C697601FF3719B915194BB57 /* RNCryptor.m */,
-				7F1A08B9D9F8363C9395DE4B /* RNCryptor+Private.h */,
-				95EDD3DFE2CB2AC1E1FA7C9E /* RNCryptorEngine.h */,
-				E8DC484B9943B3CE9B20839A /* RNCryptorEngine.m */,
-				EA6D7A89BF409FDEC08D63AF /* RNDecryptor.h */,
-				C66B8FFB1F9C9E12547EEB01 /* RNDecryptor.m */,
-				13775683111BD62B7D3C47B5 /* RNEncryptor.h */,
-				C83C772F0C265C278094FA63 /* RNEncryptor.m */,
-				58C3C8C0895CE5D6BA661A01 /* RNOpenSSLCryptor.h */,
-				098C2B452AC4DD80D0CC1174 /* RNOpenSSLCryptor.m */,
-				A6D700FAB06080714DE1F861 /* RNOpenSSLDecryptor.h */,
-				4EAC8C9CBEEF14D305492B13 /* RNOpenSSLDecryptor.m */,
-				264E8BDC87322C8A3C125EEC /* RNOpenSSLEncryptor.h */,
-				CD7FBD423733CE6D01EBA0A9 /* RNOpenSSLEncryptor.m */,
-				EF784351606EE6D6044D0270 /* Support Files */,
-			);
-			path = RNCryptor;
-			sourceTree = "<group>";
-		};
-		6C1D13B0F5D35772971C0C51 = {
-			isa = PBXGroup;
-			children = (
-				3F990A116761A5E98C075ED8 /* Podfile */,
-				E223EB7A7F23AA848FEBD092 /* Frameworks */,
-				D9D25EA2EFEAE140A2AE4851 /* Pods */,
-				AE240B22E2DDDC576A18A4DB /* Products */,
-				C5DF51C93E15A8D7372E41FC /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		829E8FCA88FFAB3B554B4BD5 /* CocoaLumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				D6061614665A6A52958934CD /* Core */,
-				BF02A624F889D123EAB3D229 /* Default */,
-				ADEF30E8702304F2ED09609C /* Extensions */,
-				E1B90CF6C9BB97366BF8F32A /* Support Files */,
-			);
-			path = CocoaLumberjack;
-			sourceTree = "<group>";
-		};
-		900788FB4FC32A861993B3D3 /* TMCache */ = {
-			isa = PBXGroup;
-			children = (
-				038E867F7E176A462E8BD429 /* TMCache.h */,
-				ADFDDA7C5DBCE6610A47E708 /* TMCache.m */,
-				E226D6DBAE0A37AA000A3943 /* TMDiskCache.h */,
-				EFDC8D7D138F3EAA792CC602 /* TMDiskCache.m */,
-				20407942771690529FAF659F /* TMMemoryCache.h */,
-				7C8A750B9AF5146A89E80B87 /* TMMemoryCache.m */,
-				0953B8BABF42849A92CCBAE1 /* Support Files */,
-			);
-			path = TMCache;
-			sourceTree = "<group>";
-		};
-		ADEF30E8702304F2ED09609C /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				54C9F58CC11C6D5EEDA7FD61 /* DDContextFilterLogFormatter.h */,
-				B80CB2F07F66B3EF9811721E /* DDContextFilterLogFormatter.m */,
-				1AC780EE9E8EC372D9B898F4 /* DDDispatchQueueLogFormatter.h */,
-				EE68CCED4120DEC85902E12B /* DDDispatchQueueLogFormatter.m */,
-				DB7990EB14B28C45DB0E73A0 /* DDMultiFormatter.h */,
-				C1A54C2288CC74DB5864AFF1 /* DDMultiFormatter.m */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		AE240B22E2DDDC576A18A4DB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CB66E7BB34B7AD21B2FF5D60 /* libPods.a */,
-				9FF042FB38C3877399C49426 /* libPods-CocoaLumberjack.a */,
-				F01F1FB5AC4F8438555A83D8 /* libPods-RNCryptor.a */,
-				F0DF0F36DFCA905F676826C4 /* libPods-TMCache.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BF02A624F889D123EAB3D229 /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				2DBE51AFE6DAADE5FFF1A791 /* CocoaLumberjack.h */,
-			);
-			name = Default;
-			sourceTree = "<group>";
-		};
-		C5DF51C93E15A8D7372E41FC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDFB6AF861B36558B9C274E4 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C6980E0BAFE38CE9E31F6455 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2703662878D6F06292A03BE7 /* Foundation.framework */,
-				76728E66614DD20164FBCAB9 /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D6061614665A6A52958934CD /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				BDC451EA09651DDF66CA8148 /* DDASLLogCapture.h */,
-				3AE3BF87D780498871B066B0 /* DDASLLogCapture.m */,
-				308C12B0F0DB02C824CE3C8E /* DDASLLogger.h */,
-				520BC421EDE7B5345DE456F4 /* DDASLLogger.m */,
-				E2DB1CC2903739AF4A595F43 /* DDAbstractDatabaseLogger.h */,
-				F3A9EDAF7BCC43F01DC0A3E7 /* DDAbstractDatabaseLogger.m */,
-				1246C4C073C21A96A5ECFB20 /* DDAssertMacros.h */,
-				3CC202AC02F682B8FF462060 /* DDFileLogger.h */,
-				013F4695DD1CD9E873A88381 /* DDFileLogger.m */,
-				0753CC8DA02DCF25BB219A7E /* DDLegacyMacros.h */,
-				F0BFF2B6C536E6E1B28E3948 /* DDLog.h */,
-				6ADF89A6499BF422A2453621 /* DDLog.m */,
-				11B12F3D7F2B9B039DA7A683 /* DDLog+LOGV.h */,
-				052496C370A950FF015A524E /* DDLogMacros.h */,
-				79721E1EBDE67B4C087B9B8D /* DDTTYLogger.h */,
-				26B9250B110F7C550CFDF9B2 /* DDTTYLogger.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		D9D25EA2EFEAE140A2AE4851 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				829E8FCA88FFAB3B554B4BD5 /* CocoaLumberjack */,
-				0BAD7E48457921B2EC26FC3C /* RNCryptor */,
-				900788FB4FC32A861993B3D3 /* TMCache */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DDFB6AF861B36558B9C274E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CBF44E783D28176DC2979E55 /* Pods-acknowledgements.markdown */,
-				386F5927E4C9FE449D0C5FD0 /* Pods-acknowledgements.plist */,
-				5502356F058DDA9B89650FEF /* Pods-dummy.m */,
-				FBC71FE282261B29718245CA /* Pods-environment.h */,
-				C39FE7B437273782AAC33996 /* Pods-resources.sh */,
-				98CE03D9B47527519573C025 /* Pods.debug.xcconfig */,
-				B8E7726D0DF2B262CC2E8E65 /* Pods.release.xcconfig */,
+				8DF6C59BF19F45F3A0A10327 /* Pods-acknowledgements.markdown */,
+				E38F8A1129913E65240CF234 /* Pods-acknowledgements.plist */,
+				3C9AF22F03EF05AE2A235180 /* Pods-dummy.m */,
+				FCB872C3CEDE129D10891A2A /* Pods-environment.h */,
+				4860AAA58DF32B1ECF678587 /* Pods-resources.sh */,
+				BFDAD5FF7A0FCA26686307E8 /* Pods.debug.xcconfig */,
+				8BE5AED5EADEA73C3B5DB335 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		E1B90CF6C9BB97366BF8F32A /* Support Files */ = {
+		11F6452EE247340B1580A054 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				17C58745FF2C9042A6D428A7 /* Pods-CocoaLumberjack.xcconfig */,
-				D9C6D3CB465C5CCD9D7E3743 /* Pods-CocoaLumberjack-Private.xcconfig */,
-				7A46D3BCB50963C50DF2CC8C /* Pods-CocoaLumberjack-dummy.m */,
-				5B9371632A905CA968C8F585 /* Pods-CocoaLumberjack-prefix.pch */,
+				A4F44F53CB190927ECD4AA82 /* Foundation.framework */,
+				F2E7DDB3C5E6AA79F0FD3AC3 /* Security.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-CocoaLumberjack";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		E223EB7A7F23AA848FEBD092 /* Frameworks */ = {
+		1675470EBD94F9C412398FD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6980E0BAFE38CE9E31F6455 /* iOS */,
+				6D3A9BF90483A91A4CACEA2C /* libPods.a */,
+				B6D2446ACA33AE670D99C78D /* libPods-RNCryptor.a */,
+				223BFEF90D4CB7C7E59EA788 /* libPods-TMCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBC6460FD4661FFA7CBAE23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08584298AA8F968086DAA1CE /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51241DD548ACD896FFD26B3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F6452EE247340B1580A054 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF784351606EE6D6044D0270 /* Support Files */ = {
+		61C665756F55E873605FAD94 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E45AB2C6C81988ED839AAB92 /* Pods-RNCryptor.xcconfig */,
-				365464D716382EF874BA7388 /* Pods-RNCryptor-Private.xcconfig */,
-				DFDB34F02CBA66C3646714A5 /* Pods-RNCryptor-dummy.m */,
-				71CD25301304E00E3D6700FB /* Pods-RNCryptor-prefix.pch */,
+				907EB5B11F908B9FFEB046B5 /* RNCryptor */,
+				CD46CE9A8F1C865566F7C113 /* TMCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		629099F1C06CC343430191C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09F9284D7350791A6F7AEC9 /* Pods-RNCryptor.xcconfig */,
+				809C367339266D34201647BC /* Pods-RNCryptor-Private.xcconfig */,
+				D18424E0DA1C87092AE67BEA /* Pods-RNCryptor-dummy.m */,
+				5D51F49A776C0EBDDE7FA115 /* Pods-RNCryptor-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-RNCryptor";
 			sourceTree = "<group>";
 		};
+		6FCE31A0C78037B1E4484BFD = {
+			isa = PBXGroup;
+			children = (
+				8E104296A22BC9CF747A78BC /* Podfile */,
+				51241DD548ACD896FFD26B3F /* Frameworks */,
+				61C665756F55E873605FAD94 /* Pods */,
+				1675470EBD94F9C412398FD8 /* Products */,
+				4BBC6460FD4661FFA7CBAE23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		72C41C1AC72D12FABCC0DAAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				474B9708F84882008F1B9D66 /* Pods-TMCache.xcconfig */,
+				2E974C725152731655D80C14 /* Pods-TMCache-Private.xcconfig */,
+				5CAE3134E44101F29D92763B /* Pods-TMCache-dummy.m */,
+				C9A6401306D3186837D5D69A /* Pods-TMCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TMCache";
+			sourceTree = "<group>";
+		};
+		907EB5B11F908B9FFEB046B5 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				0067CF07BACAFEDACE140391 /* RNCryptor.h */,
+				A47A312CED92E3F9CA7DB9B9 /* RNCryptor.m */,
+				468E9DA9C93A065DBDD43E8F /* RNCryptor+Private.h */,
+				554B590E6EE2381A7BD323B4 /* RNCryptorEngine.h */,
+				57AADC0D3FD89F63AB903CDD /* RNCryptorEngine.m */,
+				5BA5F1D829387B46122343F3 /* RNDecryptor.h */,
+				1A8DD52516243B3569D899C0 /* RNDecryptor.m */,
+				07322A89A333C725B5B9A4F0 /* RNEncryptor.h */,
+				FDAA3C43F001A51EE06461D4 /* RNEncryptor.m */,
+				88B0E7BB4AC9F9CE0F9561F0 /* RNOpenSSLCryptor.h */,
+				26DD038F159EE7983D7092AF /* RNOpenSSLCryptor.m */,
+				13CC2226B5162905C0029B91 /* RNOpenSSLDecryptor.h */,
+				4B34EE42E5C5FDCF6EB501CD /* RNOpenSSLDecryptor.m */,
+				9E2F664B686E56E8B2FB28CD /* RNOpenSSLEncryptor.h */,
+				112D78DCCBE7AF2AD3DE5043 /* RNOpenSSLEncryptor.m */,
+				629099F1C06CC343430191C0 /* Support Files */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		CD46CE9A8F1C865566F7C113 /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				850D6BEC6D43D24AE4D991A2 /* TMCache.h */,
+				CE975A9987E86E3EA10824EF /* TMCache.m */,
+				9101527E179A6C0AEF9AABA4 /* TMDiskCache.h */,
+				4B09DF4DBE8BC72FDA7CF7E7 /* TMDiskCache.m */,
+				6328652EAA30427601FF8AC1 /* TMMemoryCache.h */,
+				4938B4703BDE5BA277AA9D76 /* TMMemoryCache.m */,
+				72C41C1AC72D12FABCC0DAAE /* Support Files */,
+			);
+			path = TMCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2369D19A8722D5CC3AB0968D /* Headers */ = {
+		2C8D012E835E27940EAC248C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0716DB15C9259C15A75EED91 /* TMCache.h in Headers */,
-				2D0CD2F2CBA28620FD1F1DE6 /* TMDiskCache.h in Headers */,
-				4B513F0F8D8A4001321812B1 /* TMMemoryCache.h in Headers */,
+				E42ADA2A93069B94B7DF97B1 /* TMCache.h in Headers */,
+				7DE37BB69441B1A4BAF46F51 /* TMDiskCache.h in Headers */,
+				21A2D01E9EA0EC38F47AE94E /* TMMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CA5B09FE4E297180A671670 /* Headers */ = {
+		DAB70AE700DAE6734C4174AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				569929C5FFBCFE1B59F64CBE /* RNCryptor+Private.h in Headers */,
-				840F5E60E94DDBB66A5AA5C3 /* RNCryptor.h in Headers */,
-				077A80D45C17319DB0A8A7FC /* RNCryptorEngine.h in Headers */,
-				98DC0C4FA668943C8CD427C6 /* RNDecryptor.h in Headers */,
-				2709431C217B0E0CFAD19EEF /* RNEncryptor.h in Headers */,
-				83DE7991D2B8D5267CB115DE /* RNOpenSSLCryptor.h in Headers */,
-				577B9C0936D9855E383F4677 /* RNOpenSSLDecryptor.h in Headers */,
-				C940685A212D3CF87F6BE7FB /* RNOpenSSLEncryptor.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A54C4F3B7EBEBFD730F62129 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				838B3F9C4D7A17BA26623FAC /* CocoaLumberjack.h in Headers */,
-				C930258CBD43E5357A6D4E5D /* DDASLLogCapture.h in Headers */,
-				A53DC1C0A2AB2AAB0C95E03D /* DDASLLogger.h in Headers */,
-				C3A1A4CB3D02B8A346718019 /* DDAbstractDatabaseLogger.h in Headers */,
-				F728C5C0522E8513584654B3 /* DDAssertMacros.h in Headers */,
-				320AB3359A4223A6AEE9EB5E /* DDContextFilterLogFormatter.h in Headers */,
-				93161BE724B28C4003B34FB8 /* DDDispatchQueueLogFormatter.h in Headers */,
-				26DBF5AA9B7CBEE66DB18998 /* DDFileLogger.h in Headers */,
-				A32915220280F6E71EE8C1BF /* DDLegacyMacros.h in Headers */,
-				EFF8383657F542A2E6B44EDE /* DDLog+LOGV.h in Headers */,
-				98A9BDD5F6D4E0C97D9A03AB /* DDLog.h in Headers */,
-				993BE2399F7BA57D0FCBBA9A /* DDLogMacros.h in Headers */,
-				49605F58C15CEE4D64FE960C /* DDMultiFormatter.h in Headers */,
-				19683535016F5BC6FC91D501 /* DDTTYLogger.h in Headers */,
+				90C132686BE5895D0E30C7CC /* RNCryptor+Private.h in Headers */,
+				C62D69454FE6328697A67FC1 /* RNCryptor.h in Headers */,
+				C1D0D73E57173174C3FEE295 /* RNCryptorEngine.h in Headers */,
+				A786DA02037DDF7818EBB389 /* RNDecryptor.h in Headers */,
+				82AE02F196C05A10DC252CB5 /* RNEncryptor.h in Headers */,
+				F57F5CDBA2EB77498FFE5E49 /* RNOpenSSLCryptor.h in Headers */,
+				75C7FE5F43D7B7406A92393D /* RNOpenSSLDecryptor.h in Headers */,
+				5097A34F0E88527A3AA145BC /* RNOpenSSLEncryptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4C8D3F596EF7E5296F7642E7 /* Pods-TMCache */ = {
+		087F9028A4436E3B61B5FC44 /* Pods-RNCryptor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF03F6034824A4C64BC3EFD /* Build configuration list for PBXNativeTarget "Pods-TMCache" */;
+			buildConfigurationList = CFFD2E9051A258165C1CF2A7 /* Build configuration list for PBXNativeTarget "Pods-RNCryptor" */;
 			buildPhases = (
-				B80110FB5EAB177C5974862C /* Sources */,
-				3389A7628AF0A1D0D77CDB36 /* Frameworks */,
-				2369D19A8722D5CC3AB0968D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TMCache";
-			productName = "Pods-TMCache";
-			productReference = F0DF0F36DFCA905F676826C4 /* libPods-TMCache.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		ADE7CEE567F2CDE3D6C2F154 /* Pods-RNCryptor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC4EF0F3BD7C48F881ABE851 /* Build configuration list for PBXNativeTarget "Pods-RNCryptor" */;
-			buildPhases = (
-				B275324AE6791AB9D2F9739B /* Sources */,
-				68DBDE6C5AD3FF84B4FEC79C /* Frameworks */,
-				6CA5B09FE4E297180A671670 /* Headers */,
+				4FBBF4A4086F5D9A23EADB2D /* Sources */,
+				1CA548C4D43469E8054B291B /* Frameworks */,
+				DAB70AE700DAE6734C4174AD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -479,152 +304,127 @@
 			);
 			name = "Pods-RNCryptor";
 			productName = "Pods-RNCryptor";
-			productReference = F01F1FB5AC4F8438555A83D8 /* libPods-RNCryptor.a */;
+			productReference = B6D2446ACA33AE670D99C78D /* libPods-RNCryptor.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B5A9B9BB760C8ECF3BC58831 /* Pods-CocoaLumberjack */ = {
+		5E8FBA534C33161503D37D94 /* Pods-TMCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C5350FBD1C90E7B8F61B7C /* Build configuration list for PBXNativeTarget "Pods-CocoaLumberjack" */;
+			buildConfigurationList = B83F9F38C8A11DBE53BAD00C /* Build configuration list for PBXNativeTarget "Pods-TMCache" */;
 			buildPhases = (
-				EFE008B4B061CBEA4085A5EB /* Sources */,
-				DF10A9A930E855D8EFD648A7 /* Frameworks */,
-				A54C4F3B7EBEBFD730F62129 /* Headers */,
+				E4E794DEE2D5163BDA5082D3 /* Sources */,
+				552F2C1EA64C17CFAD6D8406 /* Frameworks */,
+				2C8D012E835E27940EAC248C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-CocoaLumberjack";
-			productName = "Pods-CocoaLumberjack";
-			productReference = 9FF042FB38C3877399C49426 /* libPods-CocoaLumberjack.a */;
+			name = "Pods-TMCache";
+			productName = "Pods-TMCache";
+			productReference = 223BFEF90D4CB7C7E59EA788 /* libPods-TMCache.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DB7368A72041E5FB373FEFEC /* Pods */ = {
+		D82592BC3400718490822693 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 604EBC3360AFDD00CAC9DDA2 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 79678E7FCF8672AAA8050302 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				64CDC92D0EF7BE2E5781FC9D /* Sources */,
-				B788BA513200AF8D627720C8 /* Frameworks */,
+				A9170D76AE39E6A4A5810E5B /* Sources */,
+				4CD15B930797D4736559EC78 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9719E49104E61B5E97D1004 /* PBXTargetDependency */,
-				87BF5AC041174ECB46F42BFA /* PBXTargetDependency */,
-				D43D80D93482950890821C43 /* PBXTargetDependency */,
+				950F00915DA3ECD9FD3FB090 /* PBXTargetDependency */,
+				AF96833A70025A2BF446BAD8 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = CB66E7BB34B7AD21B2FF5D60 /* libPods.a */;
+			productReference = 6D3A9BF90483A91A4CACEA2C /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6540DB85E6EC22D1C878E0AC /* Project object */ = {
+		3D573AA7339DA6D5C196548E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = B046F020123BAF412E459475 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 46A5B96EC64B0CF82217ACE3 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6C1D13B0F5D35772971C0C51;
-			productRefGroup = AE240B22E2DDDC576A18A4DB /* Products */;
+			mainGroup = 6FCE31A0C78037B1E4484BFD;
+			productRefGroup = 1675470EBD94F9C412398FD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB7368A72041E5FB373FEFEC /* Pods */,
-				B5A9B9BB760C8ECF3BC58831 /* Pods-CocoaLumberjack */,
-				ADE7CEE567F2CDE3D6C2F154 /* Pods-RNCryptor */,
-				4C8D3F596EF7E5296F7642E7 /* Pods-TMCache */,
+				D82592BC3400718490822693 /* Pods */,
+				087F9028A4436E3B61B5FC44 /* Pods-RNCryptor */,
+				5E8FBA534C33161503D37D94 /* Pods-TMCache */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64CDC92D0EF7BE2E5781FC9D /* Sources */ = {
+		4FBBF4A4086F5D9A23EADB2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26AEB78D2E4C6506D833208 /* Pods-dummy.m in Sources */,
+				BFB238518841077A6D7AED92 /* Pods-RNCryptor-dummy.m in Sources */,
+				233465F3A9E3B9B9A811FF4C /* RNCryptor.m in Sources */,
+				8E93DBB4446A51F59FDD89FE /* RNCryptorEngine.m in Sources */,
+				8475AAE9BB71E1DE0633B596 /* RNDecryptor.m in Sources */,
+				22E5ACD0FD21E52735321B26 /* RNEncryptor.m in Sources */,
+				4443B8F493F1DB546C9496B0 /* RNOpenSSLCryptor.m in Sources */,
+				984F037EFA9F0297F3DC37AA /* RNOpenSSLDecryptor.m in Sources */,
+				532852A8A535EB0A57F93BC7 /* RNOpenSSLEncryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B275324AE6791AB9D2F9739B /* Sources */ = {
+		A9170D76AE39E6A4A5810E5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62204916E71539F691884590 /* Pods-RNCryptor-dummy.m in Sources */,
-				56D3DB836BE9B6A241117B23 /* RNCryptor.m in Sources */,
-				03CF56054EB301E74D264EEE /* RNCryptorEngine.m in Sources */,
-				779FC398A63AD158885708AE /* RNDecryptor.m in Sources */,
-				FE5D7B33B7987BD27BE9C714 /* RNEncryptor.m in Sources */,
-				B87BB7A9F84A201540AAE3D1 /* RNOpenSSLCryptor.m in Sources */,
-				0C102E0E1C5576A10BAA0F4C /* RNOpenSSLDecryptor.m in Sources */,
-				ED94AE99B303909381C385DC /* RNOpenSSLEncryptor.m in Sources */,
+				C928BA7F803DDBF49DA74F14 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80110FB5EAB177C5974862C /* Sources */ = {
+		E4E794DEE2D5163BDA5082D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEB739497BCAA0314BE9ABC /* Pods-TMCache-dummy.m in Sources */,
-				60460C779DD3A452A36B2977 /* TMCache.m in Sources */,
-				2631D7AF6EE9AB10BAEFD8DE /* TMDiskCache.m in Sources */,
-				52BAD879EDC18651C4CE4BFC /* TMMemoryCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFE008B4B061CBEA4085A5EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BA24BB895290C373D12AE50 /* DDASLLogCapture.m in Sources */,
-				27A288FEBAD713EA3E48D6DF /* DDASLLogger.m in Sources */,
-				217DC3EAB915AE834CC27B11 /* DDAbstractDatabaseLogger.m in Sources */,
-				5C3ADDF0DB4D7846235B8913 /* DDContextFilterLogFormatter.m in Sources */,
-				898EBC832FBE9395DDD096D3 /* DDDispatchQueueLogFormatter.m in Sources */,
-				DFD3A2C17EAB4148C9D8E48F /* DDFileLogger.m in Sources */,
-				6CE6F2AA38A9BDEBA2B77E47 /* DDLog.m in Sources */,
-				22E3E0834C692194EB7C4E82 /* DDMultiFormatter.m in Sources */,
-				2BEC1F262F8FD973CA322699 /* DDTTYLogger.m in Sources */,
-				A78E2A39CE7BD27474E991AD /* Pods-CocoaLumberjack-dummy.m in Sources */,
+				F27CD6DD7F15BA4B9335FA5D /* Pods-TMCache-dummy.m in Sources */,
+				412CA4367303327734C8F777 /* TMCache.m in Sources */,
+				FC27FA98B40856556F1FE1E5 /* TMDiskCache.m in Sources */,
+				4EDF9BBA9637DE12EDA8229A /* TMMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87BF5AC041174ECB46F42BFA /* PBXTargetDependency */ = {
+		950F00915DA3ECD9FD3FB090 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RNCryptor";
-			target = ADE7CEE567F2CDE3D6C2F154 /* Pods-RNCryptor */;
-			targetProxy = 00D9CB9803A204105D4156EC /* PBXContainerItemProxy */;
+			target = 087F9028A4436E3B61B5FC44 /* Pods-RNCryptor */;
+			targetProxy = F727F4EE603D9B73A65CAA83 /* PBXContainerItemProxy */;
 		};
-		A9719E49104E61B5E97D1004 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CocoaLumberjack";
-			target = B5A9B9BB760C8ECF3BC58831 /* Pods-CocoaLumberjack */;
-			targetProxy = DDB50FD011349AC51BA74D48 /* PBXContainerItemProxy */;
-		};
-		D43D80D93482950890821C43 /* PBXTargetDependency */ = {
+		AF96833A70025A2BF446BAD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TMCache";
-			target = 4C8D3F596EF7E5296F7642E7 /* Pods-TMCache */;
-			targetProxy = 39959C7A0C3CA2D491791BE3 /* PBXContainerItemProxy */;
+			target = 5E8FBA534C33161503D37D94 /* Pods-TMCache */;
+			targetProxy = 5F26296CC6C70CA7F092C4E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		209E2F4A25435A48B113D39E /* Release */ = {
+		185E4E4AF80882A7CC749E15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 365464D716382EF874BA7388 /* Pods-RNCryptor-Private.xcconfig */;
+			baseConfigurationReference = 809C367339266D34201647BC /* Pods-RNCryptor-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-RNCryptor/Pods-RNCryptor-prefix.pch";
@@ -638,41 +438,7 @@
 			};
 			name = Release;
 		};
-		3543170DE3D3BFE5B7A6B3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		403EF4D6416A7DB687E6E8BC /* Debug */ = {
+		21D41705E73AB5FEED82B315 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -711,25 +477,9 @@
 			};
 			name = Debug;
 		};
-		69B798E943DB6A5317FF706C /* Release */ = {
+		33147139D9EBF56498013608 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB3913735FFE7572B4FD1462 /* Pods-TMCache-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TMCache/Pods-TMCache-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7060740CFDFDCAEE5FDEED4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8E7726D0DF2B262CC2E8E65 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 8BE5AED5EADEA73C3B5DB335 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -743,41 +493,9 @@
 			};
 			name = Release;
 		};
-		709FC9D3C2D8DA17EEC547EA /* Debug */ = {
+		65EDC2E778D72E08E606D96F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB3913735FFE7572B4FD1462 /* Pods-TMCache-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TMCache/Pods-TMCache-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A60470EAD421EDEDDE053873 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98CE03D9B47527519573C025 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F10C2785E77621718FA94A07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 365464D716382EF874BA7388 /* Pods-RNCryptor-Private.xcconfig */;
+			baseConfigurationReference = 809C367339266D34201647BC /* Pods-RNCryptor-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-RNCryptor/Pods-RNCryptor-prefix.pch";
@@ -791,12 +509,12 @@
 			};
 			name = Debug;
 		};
-		F38371E1A5BF3BB477C27724 /* Debug */ = {
+		A32B4FEBE675DA70CA8D8F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9C6D3CB465C5CCD9D7E3743 /* Pods-CocoaLumberjack-Private.xcconfig */;
+			baseConfigurationReference = 2E974C725152731655D80C14 /* Pods-TMCache-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CocoaLumberjack/Pods-CocoaLumberjack-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TMCache/Pods-TMCache-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -807,12 +525,28 @@
 			};
 			name = Debug;
 		};
-		F743D357A1F6468D3F0E9943 /* Release */ = {
+		A331319314ABB512779EFD14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9C6D3CB465C5CCD9D7E3743 /* Pods-CocoaLumberjack-Private.xcconfig */;
+			baseConfigurationReference = BFDAD5FF7A0FCA26686307E8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CocoaLumberjack/Pods-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4A6A451AC3D83BE18CC2131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E974C725152731655D80C14 /* Pods-TMCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TMCache/Pods-TMCache-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -823,55 +557,80 @@
 			};
 			name = Release;
 		};
+		EE583A6F44B5C5640246D697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EF03F6034824A4C64BC3EFD /* Build configuration list for PBXNativeTarget "Pods-TMCache" */ = {
+		46A5B96EC64B0CF82217ACE3 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				709FC9D3C2D8DA17EEC547EA /* Debug */,
-				69B798E943DB6A5317FF706C /* Release */,
+				21D41705E73AB5FEED82B315 /* Debug */,
+				EE583A6F44B5C5640246D697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		604EBC3360AFDD00CAC9DDA2 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		79678E7FCF8672AAA8050302 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A60470EAD421EDEDDE053873 /* Debug */,
-				7060740CFDFDCAEE5FDEED4D /* Release */,
+				A331319314ABB512779EFD14 /* Debug */,
+				33147139D9EBF56498013608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC4EF0F3BD7C48F881ABE851 /* Build configuration list for PBXNativeTarget "Pods-RNCryptor" */ = {
+		B83F9F38C8A11DBE53BAD00C /* Build configuration list for PBXNativeTarget "Pods-TMCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F10C2785E77621718FA94A07 /* Debug */,
-				209E2F4A25435A48B113D39E /* Release */,
+				A32B4FEBE675DA70CA8D8F03 /* Debug */,
+				A4A6A451AC3D83BE18CC2131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B046F020123BAF412E459475 /* Build configuration list for PBXProject "Pods" */ = {
+		CFFD2E9051A258165C1CF2A7 /* Build configuration list for PBXNativeTarget "Pods-RNCryptor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				403EF4D6416A7DB687E6E8BC /* Debug */,
-				3543170DE3D3BFE5B7A6B3D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2C5350FBD1C90E7B8F61B7C /* Build configuration list for PBXNativeTarget "Pods-CocoaLumberjack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F38371E1A5BF3BB477C27724 /* Debug */,
-				F743D357A1F6468D3F0E9943 /* Release */,
+				65EDC2E778D72E08E606D96F /* Debug */,
+				185E4E4AF80882A7CC749E15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6540DB85E6EC22D1C878E0AC /* Project object */;
+	rootObject = 3D573AA7339DA6D5C196548E /* Project object */;
 }

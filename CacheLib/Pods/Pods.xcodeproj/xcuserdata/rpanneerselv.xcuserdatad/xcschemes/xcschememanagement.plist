@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-CocoaLumberjack.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-RNCryptor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4C8D3F596EF7E5296F7642E7</key>
+		<key>087F9028A4436E3B61B5FC44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ADE7CEE567F2CDE3D6C2F154</key>
+		<key>5E8FBA534C33161503D37D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B5A9B9BB760C8ECF3BC58831</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DB7368A72041E5FB373FEFEC</key>
+		<key>D82592BC3400718490822693</key>
 		<dict>
 			<key>primary</key>
 			<true/>

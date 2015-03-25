@@ -1,22 +1,12 @@
 PODS:
-  - CocoaLumberjack (2.0.0):
-    - CocoaLumberjack/Default (= 2.0.0)
-    - CocoaLumberjack/Extensions (= 2.0.0)
-  - CocoaLumberjack/Core (2.0.0)
-  - CocoaLumberjack/Default (2.0.0):
-    - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.0.0):
-    - CocoaLumberjack/Default
   - RNCryptor (2.2)
   - TMCache (1.2.3)
 
 DEPENDENCIES:
-  - CocoaLumberjack
   - RNCryptor
   - TMCache
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: fd2b1031c6c4e0f08b5ea928ef677fa0a5de517d
   RNCryptor: 4f562062c39f288b99601674f2c50dd44b68d58a
   TMCache: 11589ef8c40909114a5e60132711c9a559e01d97
 
