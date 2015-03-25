@@ -12,9 +12,9 @@
 		13617F941AC1E9630040EE88 /* CacheLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617F931AC1E9630040EE88 /* CacheLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13617F9A1AC1E9630040EE88 /* CacheLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13617F8E1AC1E9630040EE88 /* CacheLib.framework */; };
 		13617FA11AC1E9630040EE88 /* CacheLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FA01AC1E9630040EE88 /* CacheLibTests.m */; };
-		13617FB41AC1E9D50040EE88 /* cacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FAD1AC1E9D50040EE88 /* cacheManager.h */; };
+		13617FB41AC1E9D50040EE88 /* cacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FAD1AC1E9D50040EE88 /* cacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13617FB51AC1E9D50040EE88 /* cacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FAE1AC1E9D50040EE88 /* cacheManager.m */; };
-		13617FB61AC1E9D50040EE88 /* CacheStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FAF1AC1E9D50040EE88 /* CacheStatus.h */; };
+		13617FB61AC1E9D50040EE88 /* CacheStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FAF1AC1E9D50040EE88 /* CacheStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13617FB71AC1E9D50040EE88 /* CacheStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FB01AC1E9D50040EE88 /* CacheStatus.m */; };
 		13617FB81AC1E9D50040EE88 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FB11AC1E9D50040EE88 /* NSString+MD5.h */; };
 		13617FB91AC1E9D50040EE88 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FB21AC1E9D50040EE88 /* NSString+MD5.m */; };
