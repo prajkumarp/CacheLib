@@ -11,7 +11,7 @@
 
 /** These constants indicate the type of file that is being represented.
  */
-typedef NS_ENUM(NSInteger, FileTypeEnum) {
+typedef NS_ENUM(int16_t, FileTypeEnum) {
     /** Indicates the file types as JPEG image, used for converting
      * from and to NSData.
      */
@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, FileTypeEnum) {
     /** Indicates the file types as Custom object, The object
      * should have implemented NSCoding
      */
-    CustomObject
+    CustomObjectType
 };
 
 @interface CacheStatus : NSManagedObject

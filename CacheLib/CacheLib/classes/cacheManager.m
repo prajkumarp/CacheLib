@@ -18,11 +18,11 @@
 static NSString *const kEncryptPassword      = @"goodPassword";
 
 @interface cacheManager () {
-  NSData *dataFromCache;
+    NSData *dataFromCache;
 }
 
 @property (readonly, strong, nonatomic         ) NSManagedObjectContext       *managedObjectContext;
-@property (readonly, strong, nonatomic         ) NSManagedObjectModel         *managedObjectModel;
+@property (strong, nonatomic                   ) NSManagedObjectModel         *managedObjectModel;
 @property (readonly, strong, nonatomic         ) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, NS_NONATOMIC_IOSONLY, copy) NSURL                        *applicationDocumentsDirectory;
 
@@ -47,13 +47,18 @@ static NSString *const kEncryptPassword      = @"goodPassword";
 }
 
 - (instancetype)init {
-    self = [super init];
-    
-    if (self) {
-        [self setTimeToLive:@(60 * 60 * 24 * 365 * 5)]; // 60 (Seconds) * 60(Minutes) * 24 (Hours) * 365 (Days) * 5 (Years)
-        [self setExpiryTimeforPurging:@(60 * 60 * 24 * 365 * 5)]; // 60 (Seconds) * 60 (Minutes) * 24 (Hours) * 30 (Days)
-    }
-    return self;
+  self = [super init];
+
+  if (self) {
+    [self setTimeToLive:@(60 * 60 * 24 * 365 * 5)]; // 60 (Seconds) *
+                                                    // 60(Minutes) * 24 (Hours)
+                                                    // * 365 (Days) * 5 (Years)
+    [self setExpiryTimeforPurging:@(60 * 60 * 24 * 365 * 5)]; // 60 (Seconds) *
+                                                              // 60 (Minutes) *
+                                                              // 24 (Hours) *
+                                                              // 30 (Days)
+  }
+  return self;
 }
 
 - (void)dealloc {
@@ -142,7 +147,7 @@ static NSString *const kEncryptPassword      = @"goodPassword";
 - (void)setData:(id)object
          forKey:(NSString *)key
  withExpiryDate:(NSDate *)date {
-    FileTypeEnum dataTypeValue = CustomObject;
+    FileTypeEnum dataTypeValue = CustomObjectType;
     if ([object isKindOfClass:[UIImage class]])
     {
         dataTypeValue = [self extractFileType:key];
@@ -281,6 +286,7 @@ static NSString *const kEncryptPassword      = @"goodPassword";
     if (![context save:&error]) {
         NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
     }
+    
 }
 
 - (CacheStatus *)getFromCacheLookupByKey:(NSString *)key {
@@ -291,7 +297,7 @@ static NSString *const kEncryptPassword      = @"goodPassword";
     NSEntityDescription *entity = [NSEntityDescription entityForName:@"CacheStatus" inManagedObjectContext:context];
     [fetchRequest setEntity:entity];
     
-    NSPredicate *keyPredicate = [NSPredicate predicateWithFormat:@"key=%@", key];
+    NSPredicate *keyPredicate = [NSPredicate predicateWithFormat:@"key = %@", key];
     [fetchRequest setPredicate:keyPredicate];
     
     NSError *error;
@@ -306,39 +312,57 @@ static NSString *const kEncryptPassword      = @"goodPassword";
     return returnData;
 }
 
-- (void)getFromCacheLookupByFileType:(NSString *)fileType {
+- (NSArray *)getFromCacheLookupByFileType:(FileTypeEnum)fileType {
     NSManagedObjectContext *context = [self managedObjectContext];
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    
     NSEntityDescription *entity = [NSEntityDescription entityForName:@"CacheStatus" inManagedObjectContext:context];
     [fetchRequest setEntity:entity];
+    
+    NSPredicate *fileTypePredicate = [NSPredicate predicateWithFormat:@"fileType = %i", fileType];
+    [fetchRequest setPredicate:fileTypePredicate];
     
     NSError *error;
     NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
     
-    for (CacheStatus *cacheInformation in fetchedObjects) {
-        NSLog(@"Name: %@", cacheInformation.key);
-    }
-    
+    return fetchedObjects;
 }
 
-- (void)getCacheWithExpiryDateLessThan:(NSDate *)expiryDate {
+- (NSArray *)getCacheWithExpiryDateLessThan:(NSDate *)expiryDate {
+    
     NSManagedObjectContext *context = [self managedObjectContext];
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    
     NSEntityDescription *entity = [NSEntityDescription entityForName:@"CacheStatus" inManagedObjectContext:context];
     [fetchRequest setEntity:entity];
+    
+    NSPredicate *datePredicate = [NSPredicate predicateWithFormat:@"expiryDate < %@", expiryDate];
+    [fetchRequest setPredicate:datePredicate];
     
     NSError *error;
     NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
     
-    for (CacheStatus *cacheInformation in fetchedObjects) {
-        NSLog(@"Name: %@", cacheInformation.key);
-    }
+    return fetchedObjects;
 }
 
+
+- (void)deleteAllEntities
+{
+    NSManagedObjectContext *context = [self managedObjectContext];
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"CacheStatus"];
+    [fetchRequest setIncludesPropertyValues:NO]; //only fetch the managedObjectID
+    
+    NSError *error;
+    NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
+    for (NSManagedObject *object in fetchedObjects)
+    {
+        [context deleteObject:object];
+    }
+    
+    error = nil;
+    [context save:&error];
+}
 #pragma mark - Core Data stack
 
 @synthesize managedObjectContext             = _managedObjectContext;
@@ -358,7 +382,7 @@ static NSString *const kEncryptPassword      = @"goodPassword";
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
-    NSURL *modelURL     = [[NSBundle mainBundle] URLForResource:@"cachelib" withExtension:@"momd"];
+    NSURL *modelURL     = [[NSBundle mainBundle] URLForResource:@"testModel" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }

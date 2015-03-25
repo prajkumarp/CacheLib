@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13228D101AC3320200009B72 /* jpegTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13228D0E1AC3320200009B72 /* jpegTest.jpg */; };
+		13228D111AC3320200009B72 /* pngTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 13228D0F1AC3320200009B72 /* pngTest.png */; };
 		13617F941AC1E9630040EE88 /* CacheLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617F931AC1E9630040EE88 /* CacheLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13617F9A1AC1E9630040EE88 /* CacheLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13617F8E1AC1E9630040EE88 /* CacheLib.framework */; };
 		13617FA11AC1E9630040EE88 /* CacheLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FA01AC1E9630040EE88 /* CacheLibTests.m */; };
-		13617FB31AC1E9D50040EE88 /* cachelib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13617FAB1AC1E9D50040EE88 /* cachelib.xcdatamodeld */; };
 		13617FB41AC1E9D50040EE88 /* cacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FAD1AC1E9D50040EE88 /* cacheManager.h */; };
 		13617FB51AC1E9D50040EE88 /* cacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FAE1AC1E9D50040EE88 /* cacheManager.m */; };
 		13617FB61AC1E9D50040EE88 /* CacheStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FAF1AC1E9D50040EE88 /* CacheStatus.h */; };
@@ -18,6 +19,7 @@
 		13617FB81AC1E9D50040EE88 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 13617FB11AC1E9D50040EE88 /* NSString+MD5.h */; };
 		13617FB91AC1E9D50040EE88 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FB21AC1E9D50040EE88 /* NSString+MD5.m */; };
 		13617FBB1AC1EA9D0040EE88 /* CacheManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13617FBA1AC1EA9D0040EE88 /* CacheManagerTests.m */; };
+		13B5DD271AC30C9F00E02410 /* cachelib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13B5DD251AC30C9F00E02410 /* cachelib.xcdatamodeld */; };
 		8B082745870920029B699F60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3E139B5C9FE34C04B9DE0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,13 +36,14 @@
 /* Begin PBXFileReference section */
 		0140CDB9CD52A58C19670F5A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		0BE3E139B5C9FE34C04B9DE0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13228D0E1AC3320200009B72 /* jpegTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpegTest.jpg; sourceTree = "<group>"; };
+		13228D0F1AC3320200009B72 /* pngTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngTest.png; sourceTree = "<group>"; };
 		13617F8E1AC1E9630040EE88 /* CacheLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CacheLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13617F921AC1E9630040EE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13617F931AC1E9630040EE88 /* CacheLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheLib.h; sourceTree = "<group>"; };
 		13617F991AC1E9630040EE88 /* CacheLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CacheLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13617F9F1AC1E9630040EE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13617FA01AC1E9630040EE88 /* CacheLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheLibTests.m; sourceTree = "<group>"; };
-		13617FAC1AC1E9D50040EE88 /* cachelib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cachelib.xcdatamodel; sourceTree = "<group>"; };
 		13617FAD1AC1E9D50040EE88 /* cacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cacheManager.h; sourceTree = "<group>"; };
 		13617FAE1AC1E9D50040EE88 /* cacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cacheManager.m; sourceTree = "<group>"; };
 		13617FAF1AC1E9D50040EE88 /* CacheStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheStatus.h; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		13617FB11AC1E9D50040EE88 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		13617FB21AC1E9D50040EE88 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		13617FBA1AC1EA9D0040EE88 /* CacheManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManagerTests.m; sourceTree = "<group>"; };
+		13B5DD261AC30C9F00E02410 /* cachelib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cachelib.xcdatamodel; sourceTree = "<group>"; };
 		67D8163E443A76D1D25976C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +116,8 @@
 		13617F9D1AC1E9630040EE88 /* CacheLibTests */ = {
 			isa = PBXGroup;
 			children = (
+				13228D0E1AC3320200009B72 /* jpegTest.jpg */,
+				13228D0F1AC3320200009B72 /* pngTest.png */,
 				13617FA01AC1E9630040EE88 /* CacheLibTests.m */,
 				13617F9E1AC1E9630040EE88 /* Supporting Files */,
 				13617FBA1AC1EA9D0040EE88 /* CacheManagerTests.m */,
@@ -130,13 +136,13 @@
 		13617FAA1AC1E9D50040EE88 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				13617FAB1AC1E9D50040EE88 /* cachelib.xcdatamodeld */,
 				13617FAD1AC1E9D50040EE88 /* cacheManager.h */,
 				13617FAE1AC1E9D50040EE88 /* cacheManager.m */,
 				13617FAF1AC1E9D50040EE88 /* CacheStatus.h */,
 				13617FB01AC1E9D50040EE88 /* CacheStatus.m */,
 				13617FB11AC1E9D50040EE88 /* NSString+MD5.h */,
 				13617FB21AC1E9D50040EE88 /* NSString+MD5.m */,
+				13B5DD251AC30C9F00E02410 /* cachelib.xcdatamodeld */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13228D101AC3320200009B72 /* jpegTest.jpg in Resources */,
+				13228D111AC3320200009B72 /* pngTest.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,10 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B5DD271AC30C9F00E02410 /* cachelib.xcdatamodeld in Sources */,
 				13617FB71AC1E9D50040EE88 /* CacheStatus.m in Sources */,
 				13617FB51AC1E9D50040EE88 /* cacheManager.m in Sources */,
 				13617FB91AC1E9D50040EE88 /* NSString+MD5.m in Sources */,
-				13617FB31AC1E9D50040EE88 /* cachelib.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,12 +517,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		13617FAB1AC1E9D50040EE88 /* cachelib.xcdatamodeld */ = {
+		13B5DD251AC30C9F00E02410 /* cachelib.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				13617FAC1AC1E9D50040EE88 /* cachelib.xcdatamodel */,
+				13B5DD261AC30C9F00E02410 /* cachelib.xcdatamodel */,
 			);
-			currentVersion = 13617FAC1AC1E9D50040EE88 /* cachelib.xcdatamodel */;
+			currentVersion = 13B5DD261AC30C9F00E02410 /* cachelib.xcdatamodel */;
 			path = cachelib.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
