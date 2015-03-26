@@ -1,8 +1,3 @@
-CacheLib/CacheLib.xcodeproj/project.xcworkspace/xcshareddata/CacheLib.xccheckout
-CacheLib/CacheLib.xcodeproj/project.xcworkspace/xcuserdata/rpanneerselv.xcuserdatad/UserInterfaceState.xcuserstate
-CacheLib/CacheLib.xcworkspace/xcshareddata/CacheLib.xccheckout
-CacheLib/CacheLib.xcworkspace/xcuserdata/rpanneerselv.xcuserdatad/UserInterfaceState.xcuserstate
-CacheLib/CacheLib.xcworkspace/xcuserdata/rpanneerselv.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 CacheLib/Build/Intermediates/CacheLib.build/all-product-headers.yaml
 CacheLib/Build/Intermediates/CacheLib.build/Debug-iphonesimulator/CacheLib.build/CacheLib-all-non-framework-target-headers.hmap
 CacheLib/Build/Intermediates/CacheLib.build/Debug-iphonesimulator/CacheLib.build/CacheLib-all-target-headers.hmap
@@ -111,3 +106,5 @@ CacheLib/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-TMCache.build
 CacheLib/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d
 CacheLib/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia
 CacheLib/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+CacheLib/CacheLib.xcodeproj/project.xcworkspace/xcuserdata/rpanneerselv.xcuserdatad/UserInterfaceState.xcuserstate
+CacheLib/CacheLib.xcworkspace/xcuserdata/rpanneerselv.xcuserdatad/UserInterfaceState.xcuserstate
